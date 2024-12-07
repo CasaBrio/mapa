@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ed037f67fddc68d844552a068ac31f8d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ed037f67fddc68d844552a068ac31f8d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ed037f67fddc68d844552a068ac31f8d = L.map(
+                "map_ed037f67fddc68d844552a068ac31f8d",
+                {
+                    center: [-23.55, -46.63],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86cd109b05c99abbe6f59b5517b17089 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var marker_c896bd205aff7babbdb0be6fd3fa32dc = L.marker(
+                [-23.55344, -46.68911],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_98f1eea24a1bd4f15aec4bc756ac1f00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c896bd205aff7babbdb0be6fd3fa32dc.setIcon(icon_98f1eea24a1bd4f15aec4bc756ac1f00);
+        
+    
+        var popup_38f9ef4baab5193e12989c8333982c05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c278785e5ab9fa8e9aa44666e6afd9 = $(`<div id="html_88c278785e5ab9fa8e9aa44666e6afd9" style="width: 100.0%; height: 100.0%;"><b>Simão 717</b></div>`)[0];
+            popup_38f9ef4baab5193e12989c8333982c05.setContent(html_88c278785e5ab9fa8e9aa44666e6afd9);
+        
+
+        marker_c896bd205aff7babbdb0be6fd3fa32dc.bindPopup(popup_38f9ef4baab5193e12989c8333982c05)
+        ;
+
+        
+    
+    
+            var marker_982d701d1576f3c94b4c2b14cd9dcc4e = L.marker(
+                [-23.61852, -46.67092],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_c113243a378812666f6211b8e7d9ce9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_982d701d1576f3c94b4c2b14cd9dcc4e.setIcon(icon_c113243a378812666f6211b8e7d9ce9d);
+        
+    
+        var popup_b0da45a8baafac76f27dda35114e02ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a776130a525a5bac539191f10b562e6f = $(`<div id="html_a776130a525a5bac539191f10b562e6f" style="width: 100.0%; height: 100.0%;"><b>Axis Campo Belo</b></div>`)[0];
+            popup_b0da45a8baafac76f27dda35114e02ef.setContent(html_a776130a525a5bac539191f10b562e6f);
+        
+
+        marker_982d701d1576f3c94b4c2b14cd9dcc4e.bindPopup(popup_b0da45a8baafac76f27dda35114e02ef)
+        ;
+
+        
+    
+    
+            var marker_eb7df745bb06a4ce9c93872be0e9cb22 = L.marker(
+                [-23.62095, -46.67154],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_98c2c2a75b1246e325c230aa45454a9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb7df745bb06a4ce9c93872be0e9cb22.setIcon(icon_98c2c2a75b1246e325c230aa45454a9f);
+        
+    
+        var popup_660b35e04b9aa1a3630b42944d253fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0e49e1e991918f2853df35d51dd6a01 = $(`<div id="html_c0e49e1e991918f2853df35d51dd6a01" style="width: 100.0%; height: 100.0%;"><b>Sync</b></div>`)[0];
+            popup_660b35e04b9aa1a3630b42944d253fa6.setContent(html_c0e49e1e991918f2853df35d51dd6a01);
+        
+
+        marker_eb7df745bb06a4ce9c93872be0e9cb22.bindPopup(popup_660b35e04b9aa1a3630b42944d253fa6)
+        ;
+
+        
+    
+    
+            var marker_98c0fdd585f313472f65480b9b1fe435 = L.marker(
+                [-23.54978, -46.71123],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_5f55519a182b5ca61afc9005ab6509a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98c0fdd585f313472f65480b9b1fe435.setIcon(icon_5f55519a182b5ca61afc9005ab6509a3);
+        
+    
+        var popup_0cbb395501b8cc156f76f3d1f415ca06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e78c0ec656fc272c54dfa76de321d5 = $(`<div id="html_f3e78c0ec656fc272c54dfa76de321d5" style="width: 100.0%; height: 100.0%;"><b>Reserva</b></div>`)[0];
+            popup_0cbb395501b8cc156f76f3d1f415ca06.setContent(html_f3e78c0ec656fc272c54dfa76de321d5);
+        
+
+        marker_98c0fdd585f313472f65480b9b1fe435.bindPopup(popup_0cbb395501b8cc156f76f3d1f415ca06)
+        ;
+
+        
+    
+    
+            var marker_8efc573e5f3801261ed4404dc642330f = L.marker(
+                [-23.61068, -46.68327],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_88142f405a668c721d36ab33ed214495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8efc573e5f3801261ed4404dc642330f.setIcon(icon_88142f405a668c721d36ab33ed214495);
+        
+    
+        var popup_a554fa39309c607ee2833829054b6eda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6373785b4ed367be6f2e2d35703a6358 = $(`<div id="html_6373785b4ed367be6f2e2d35703a6358" style="width: 100.0%; height: 100.0%;"><b>La Casa Brooklin</b></div>`)[0];
+            popup_a554fa39309c607ee2833829054b6eda.setContent(html_6373785b4ed367be6f2e2d35703a6358);
+        
+
+        marker_8efc573e5f3801261ed4404dc642330f.bindPopup(popup_a554fa39309c607ee2833829054b6eda)
+        ;
+
+        
+    
+    
+            var marker_145680cbd922a749252dd5eb80f6465f = L.marker(
+                [-23.65412, -46.70031],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_44f433dbb4564d4f4677bb72c98a82db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_145680cbd922a749252dd5eb80f6465f.setIcon(icon_44f433dbb4564d4f4677bb72c98a82db);
+        
+    
+        var popup_0deaf654a14682bfbab84492b842487f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_390dd7254d795e91f37c77c78c456220 = $(`<div id="html_390dd7254d795e91f37c77c78c456220" style="width: 100.0%; height: 100.0%;"><b>Oriz</b></div>`)[0];
+            popup_0deaf654a14682bfbab84492b842487f.setContent(html_390dd7254d795e91f37c77c78c456220);
+        
+
+        marker_145680cbd922a749252dd5eb80f6465f.bindPopup(popup_0deaf654a14682bfbab84492b842487f)
+        ;
+
+        
+    
+    
+            var marker_82c1d4beac9b298f82a63fd821c5e57f = L.marker(
+                [-23.57323, -46.74415],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_ca24c7ae995a00d4d35d23db5f1ebc80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82c1d4beac9b298f82a63fd821c5e57f.setIcon(icon_ca24c7ae995a00d4d35d23db5f1ebc80);
+        
+    
+        var popup_1bd3afa9fce46773330bffede4d9060d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_565767ff5939aa91da6a616b4605980f = $(`<div id="html_565767ff5939aa91da6a616b4605980f" style="width: 100.0%; height: 100.0%;"><b>Welconx Butantã</b></div>`)[0];
+            popup_1bd3afa9fce46773330bffede4d9060d.setContent(html_565767ff5939aa91da6a616b4605980f);
+        
+
+        marker_82c1d4beac9b298f82a63fd821c5e57f.bindPopup(popup_1bd3afa9fce46773330bffede4d9060d)
+        ;
+
+        
+    
+    
+            var marker_b814464608ee3aa1b940c25d5df76c79 = L.marker(
+                [-23.62634, -46.67104],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_b70cd70091957c5811020d1156ef322a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b814464608ee3aa1b940c25d5df76c79.setIcon(icon_b70cd70091957c5811020d1156ef322a);
+        
+    
+        var popup_4324934b940e867fb727f6925cdb311c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8354fc3c5e75f2a85cb52ba30b9dde4c = $(`<div id="html_8354fc3c5e75f2a85cb52ba30b9dde4c" style="width: 100.0%; height: 100.0%;"><b>Movi Campo Belo</b></div>`)[0];
+            popup_4324934b940e867fb727f6925cdb311c.setContent(html_8354fc3c5e75f2a85cb52ba30b9dde4c);
+        
+
+        marker_b814464608ee3aa1b940c25d5df76c79.bindPopup(popup_4324934b940e867fb727f6925cdb311c)
+        ;
+
+        
+    
+    
+            var marker_6538f39e90ab3036d8612112f5ac1b52 = L.marker(
+                [-23.64503, -46.7105],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_80488adb8a578a79095a9c1ad1290319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6538f39e90ab3036d8612112f5ac1b52.setIcon(icon_80488adb8a578a79095a9c1ad1290319);
+        
+    
+        var popup_7985632ff1f0c0d57f9c8ef64a47fe56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6c7a0604a139ba5469da142feaea53b = $(`<div id="html_a6c7a0604a139ba5469da142feaea53b" style="width: 100.0%; height: 100.0%;"><b>Casa Magnólias</b></div>`)[0];
+            popup_7985632ff1f0c0d57f9c8ef64a47fe56.setContent(html_a6c7a0604a139ba5469da142feaea53b);
+        
+
+        marker_6538f39e90ab3036d8612112f5ac1b52.bindPopup(popup_7985632ff1f0c0d57f9c8ef64a47fe56)
+        ;
+
+        
+    
+    
+            var marker_a0338120e0bfb527ac0b80f364997593 = L.marker(
+                [-23.60372, -46.66046],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_93a03877ac290957883c2ba6fccba9a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0338120e0bfb527ac0b80f364997593.setIcon(icon_93a03877ac290957883c2ba6fccba9a7);
+        
+    
+        var popup_9cd5016d1fcc6c2fa1a53d6c80420d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939b75034a7526b8f79760cb03d6706f = $(`<div id="html_939b75034a7526b8f79760cb03d6706f" style="width: 100.0%; height: 100.0%;"><b>Indi 70</b></div>`)[0];
+            popup_9cd5016d1fcc6c2fa1a53d6c80420d4a.setContent(html_939b75034a7526b8f79760cb03d6706f);
+        
+
+        marker_a0338120e0bfb527ac0b80f364997593.bindPopup(popup_9cd5016d1fcc6c2fa1a53d6c80420d4a)
+        ;
+
+        
+    
+    
+            var marker_8fc607e7f93ddd5efedad40db4f6d420 = L.marker(
+                [-23.58642, -46.6702],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_9d5a42b7346c94ed28f19c9abb81adce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8fc607e7f93ddd5efedad40db4f6d420.setIcon(icon_9d5a42b7346c94ed28f19c9abb81adce);
+        
+    
+        var popup_12f307376c2bf5cb517cbb05abb9e43f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ba8878440bb5fb610e6195ae6339bb = $(`<div id="html_57ba8878440bb5fb610e6195ae6339bb" style="width: 100.0%; height: 100.0%;"><b>Oby Itaim</b></div>`)[0];
+            popup_12f307376c2bf5cb517cbb05abb9e43f.setContent(html_57ba8878440bb5fb610e6195ae6339bb);
+        
+
+        marker_8fc607e7f93ddd5efedad40db4f6d420.bindPopup(popup_12f307376c2bf5cb517cbb05abb9e43f)
+        ;
+
+        
+    
+    
+            var marker_1805f1566665fb987c47e8892a1652fa = L.marker(
+                [-23.56884, -46.65023],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_a7ec890c87fee47dc1207e50a28cb8df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1805f1566665fb987c47e8892a1652fa.setIcon(icon_a7ec890c87fee47dc1207e50a28cb8df);
+        
+    
+        var popup_31fd834cefac0af208f8cdcfeaa1805e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_858d86e115889c297176be60b295467d = $(`<div id="html_858d86e115889c297176be60b295467d" style="width: 100.0%; height: 100.0%;"><b>Lina Jardins</b></div>`)[0];
+            popup_31fd834cefac0af208f8cdcfeaa1805e.setContent(html_858d86e115889c297176be60b295467d);
+        
+
+        marker_1805f1566665fb987c47e8892a1652fa.bindPopup(popup_31fd834cefac0af208f8cdcfeaa1805e)
+        ;
+
+        
+    
+    
+            var marker_5193ad049ff3004b61ab3dbedb483a47 = L.marker(
+                [-23.56668, -46.65476],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_9fdabf6982530619719fce2bf5cb84c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5193ad049ff3004b61ab3dbedb483a47.setIcon(icon_9fdabf6982530619719fce2bf5cb84c8);
+        
+    
+        var popup_f0afe1b6fb97eb6845d91dd600c3333c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf94a794d607dce608bd5db4c84d571 = $(`<div id="html_daf94a794d607dce608bd5db4c84d571" style="width: 100.0%; height: 100.0%;"><b>Guarará</b></div>`)[0];
+            popup_f0afe1b6fb97eb6845d91dd600c3333c.setContent(html_daf94a794d607dce608bd5db4c84d571);
+        
+
+        marker_5193ad049ff3004b61ab3dbedb483a47.bindPopup(popup_f0afe1b6fb97eb6845d91dd600c3333c)
+        ;
+
+        
+    
+    
+            var marker_505a3cc4ebae832ff64a74d3980a41e3 = L.marker(
+                [-23.61053, -46.74207],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_da9c35fc9f45f478d7b39fe7c1f3e639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_505a3cc4ebae832ff64a74d3980a41e3.setIcon(icon_da9c35fc9f45f478d7b39fe7c1f3e639);
+        
+    
+        var popup_6a5b525ad90329113597730a44af5b65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03a2fc2a248e343721c885e66bb9f79c = $(`<div id="html_03a2fc2a248e343721c885e66bb9f79c" style="width: 100.0%; height: 100.0%;"><b>La Casa Pássaros e Flores</b></div>`)[0];
+            popup_6a5b525ad90329113597730a44af5b65.setContent(html_03a2fc2a248e343721c885e66bb9f79c);
+        
+
+        marker_505a3cc4ebae832ff64a74d3980a41e3.bindPopup(popup_6a5b525ad90329113597730a44af5b65)
+        ;
+
+        
+    
+    
+            var marker_c18df39a4940bab7cd481ce0cecc6e53 = L.marker(
+                [-23.67856, -46.67777],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_125114ec6ff82fd6f3d55c291d38f79e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c18df39a4940bab7cd481ce0cecc6e53.setIcon(icon_125114ec6ff82fd6f3d55c291d38f79e);
+        
+    
+        var popup_de5cd6653ffac09b42c058a0e325dc82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ef2d433704d875a0541de17eb44b204 = $(`<div id="html_5ef2d433704d875a0541de17eb44b204" style="width: 100.0%; height: 100.0%;"><b>Cumaru</b></div>`)[0];
+            popup_de5cd6653ffac09b42c058a0e325dc82.setContent(html_5ef2d433704d875a0541de17eb44b204);
+        
+
+        marker_c18df39a4940bab7cd481ce0cecc6e53.bindPopup(popup_de5cd6653ffac09b42c058a0e325dc82)
+        ;
+
+        
+    
+    
+            var marker_53d5c68cd920270365fe13c5414b1e88 = L.marker(
+                [-23.61532, -46.66771],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_367a434565fa1ebfb053d9d80673e3cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53d5c68cd920270365fe13c5414b1e88.setIcon(icon_367a434565fa1ebfb053d9d80673e3cc);
+        
+    
+        var popup_abb4b52718991140d8ba8f9cae890db4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_498fd59adcb963d89f886a9c36480729 = $(`<div id="html_498fd59adcb963d89f886a9c36480729" style="width: 100.0%; height: 100.0%;"><b>Composite</b></div>`)[0];
+            popup_abb4b52718991140d8ba8f9cae890db4.setContent(html_498fd59adcb963d89f886a9c36480729);
+        
+
+        marker_53d5c68cd920270365fe13c5414b1e88.bindPopup(popup_abb4b52718991140d8ba8f9cae890db4)
+        ;
+
+        
+    
+    
+            var marker_a8506ad2e70bcc553331650b4294dd84 = L.marker(
+                [-23.49742, -46.74938],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_b2623d4bc4eb7c810d3638ea53b4bae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8506ad2e70bcc553331650b4294dd84.setIcon(icon_b2623d4bc4eb7c810d3638ea53b4bae9);
+        
+    
+        var popup_5d29fdd6f043606fb8999b9d23a56dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56e5a533359c2c018994aeae66ee6ac = $(`<div id="html_d56e5a533359c2c018994aeae66ee6ac" style="width: 100.0%; height: 100.0%;"><b>Selenza</b></div>`)[0];
+            popup_5d29fdd6f043606fb8999b9d23a56dc1.setContent(html_d56e5a533359c2c018994aeae66ee6ac);
+        
+
+        marker_a8506ad2e70bcc553331650b4294dd84.bindPopup(popup_5d29fdd6f043606fb8999b9d23a56dc1)
+        ;
+
+        
+    
+    
+            var marker_3b2f3c2f5e76e391c358e67791bfccb9 = L.marker(
+                [-23.52848, -46.68673],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_1953d3f851e5d33a45ffd25590c27609 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b2f3c2f5e76e391c358e67791bfccb9.setIcon(icon_1953d3f851e5d33a45ffd25590c27609);
+        
+    
+        var popup_8109ee5479a4fd783162e8acd3135213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d7492d8d65eee5933766f43c12ab893 = $(`<div id="html_7d7492d8d65eee5933766f43c12ab893" style="width: 100.0%; height: 100.0%;"><b>Welconx Perdizes</b></div>`)[0];
+            popup_8109ee5479a4fd783162e8acd3135213.setContent(html_7d7492d8d65eee5933766f43c12ab893);
+        
+
+        marker_3b2f3c2f5e76e391c358e67791bfccb9.bindPopup(popup_8109ee5479a4fd783162e8acd3135213)
+        ;
+
+        
+    
+    
+            var marker_727be48b7db4c7e9e7ead97a09ac708e = L.marker(
+                [-23.60311, -46.67458],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_759fa1a94c4a5a1eff369aa6a32ef78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_727be48b7db4c7e9e7ead97a09ac708e.setIcon(icon_759fa1a94c4a5a1eff369aa6a32ef78b);
+        
+    
+        var popup_8fada6d826a5ebce588b0b9d292fd11e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe6f6f1a0f6ad9f6cb75cc4f301ed84b = $(`<div id="html_fe6f6f1a0f6ad9f6cb75cc4f301ed84b" style="width: 100.0%; height: 100.0%;"><b>La Vida Estilo Barroco</b></div>`)[0];
+            popup_8fada6d826a5ebce588b0b9d292fd11e.setContent(html_fe6f6f1a0f6ad9f6cb75cc4f301ed84b);
+        
+
+        marker_727be48b7db4c7e9e7ead97a09ac708e.bindPopup(popup_8fada6d826a5ebce588b0b9d292fd11e)
+        ;
+
+        
+    
+    
+            var marker_88c30c94766a92f0366e89a3250653b0 = L.marker(
+                [-23.59644, -46.65182],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_e631667206cfffea46c2476ac3b87eed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88c30c94766a92f0366e89a3250653b0.setIcon(icon_e631667206cfffea46c2476ac3b87eed);
+        
+    
+        var popup_62011e975b15749fb683b8a3ea752319 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3526aede800ad1f79ab11fb8f437a643 = $(`<div id="html_3526aede800ad1f79ab11fb8f437a643" style="width: 100.0%; height: 100.0%;"><b>Tumiarú 120</b></div>`)[0];
+            popup_62011e975b15749fb683b8a3ea752319.setContent(html_3526aede800ad1f79ab11fb8f437a643);
+        
+
+        marker_88c30c94766a92f0366e89a3250653b0.bindPopup(popup_62011e975b15749fb683b8a3ea752319)
+        ;
+
+        
+    
+    
+            var marker_851e11c2c38118b8cd1c48b8b340ad0d = L.marker(
+                [-23.56973, -46.68952],
+                {}
+            ).addTo(map_ed037f67fddc68d844552a068ac31f8d);
+        
+    
+            var icon_2ad074743ed5391479db0d1262015f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_851e11c2c38118b8cd1c48b8b340ad0d.setIcon(icon_2ad074743ed5391479db0d1262015f91);
+        
+    
+        var popup_4856e911ceea094d248fb29eb167bb71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baaee21b081576430030d0051a514b98 = $(`<div id="html_baaee21b081576430030d0051a514b98" style="width: 100.0%; height: 100.0%;"><b>C290</b></div>`)[0];
+            popup_4856e911ceea094d248fb29eb167bb71.setContent(html_baaee21b081576430030d0051a514b98);
+        
+
+        marker_851e11c2c38118b8cd1c48b8b340ad0d.bindPopup(popup_4856e911ceea094d248fb29eb167bb71)
+        ;
+
+        
+    
+</script>
+</html>
